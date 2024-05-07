@@ -1,0 +1,534 @@
+ 
+  @media only screen and (min-width:551px) and (max-width:786px){
+
+
+    nav{
+      position: fixed;
+       z-index: 120;
+       background-color: #524D4D;
+       width: 100vw;
+       top: 0px;
+   }
+   form.active{
+      top: 345px;
+     opacity: 1;
+     z-index: 1234;
+     transform: translate(-50% , -50%) scale(1);
+     width: 100%;
+     left: 384px;
+     border-radius: 0px;
+     
+ }
+
+
+ form{
+   left: 100px;
+ }
+ .form_box{
+   padding: 20px;
+   margin-left: 124px;
+ }
+ #email{
+   width:350px;
+ }
+ #name{
+   width:350px;
+ }
+ #number{
+   width:350px;
+ }
+ #form_btn_bottom{
+   margin-left: -127px;
+   gap: 75px;
+ }
+   
+
+ .navbarimage{
+   height: 45px;
+   width: 45px;
+   margin-top: 20px;
+   align-items: center;
+   justify-content: center;
+ }
+ .nav_li{
+   flex-direction: column;
+   position: absolute;
+   left:70.2px;
+   top: 80px;
+   width: 27%;
+   height: 52vh;
+   background-color: orange;
+   transform: translateX(100%); 
+   transition: all 0.5s linear;
+   opacity: 0; 
+   z-index: 20;
+   gap: 20px;
+ }
+ .nav_btn{
+   display: block;
+   margin-left: 45px;
+   background: white;
+   margin-top: 5px;
+
+}
+ .nav_li.active{
+   opacity: 1;
+   transform: translateX(0); 
+
+
+ }
+
+
+ .nav_li a{
+   color: black;
+   position: relative;
+   top: -20px;
+   left: 0px;
+
+  
+ }
+
+#Hummenu{
+ color: orange;
+ font-size: 25px;
+ cursor: pointer;
+ display: block;
+ position: absolute;
+ top: 30px;
+ left: 700px;
+}
+#Hummenu.active{
+ color: orange;
+ font-size: 25px;
+ cursor: pointer;
+ display: block;
+ position: absolute;
+ top: 30px;
+ left: 700px;
+}
+
+
+
+#cancel{
+   display:none;
+   border: 1px solid;
+   padding: 5px;
+   position: absolute;
+   left: 700px;
+   
+}
+#cancel.active{
+   display: block;
+   background-color: orange;
+   border: 1px solid;
+   padding: 5px;
+
+} 
+
+    .main_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .box {
+        margin-left: 0px;
+        left: 0px;
+    }
+  
+    .box_content{
+        height: 15px;
+    }
+    .box_content p{
+        font-family: 35px;
+
+    }
+    .hr{
+        display: none;
+    }
+    .hr1 {
+        width: 85%;
+        bottom: 0px;
+        top: 350px;
+    }
+    .hr2{
+        height: 85%;
+        top: 700px;
+        left: -200px;
+    }
+    .hr3{
+        height: 85%;
+        top: 700px;
+        left: -300px;
+    }
+    .fitness_plan1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 125px;
+        top: 75px;
+    }
+
+    .fitness_plan1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .fitness_plan1 p {
+        font-size: 25px;
+    }
+    .fitness_plan2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 600px;
+        top: 75px;
+    }
+    .fitness_plan2 img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20px;
+    }
+    .fitness_plan2 p{
+        font-size: 25px;
+    }
+    .fitness_plan3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 360px;
+        top: 75px;
+    }
+    .fitness_plan3 img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20px;
+    }
+    .fitness_plan3 p{
+        font-size: 25px;
+    }
+    .fitness_plan4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 125px;
+        top: 330px;
+    }
+    .fitness_plan4 img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20px;
+    }
+    .fitness_plan4 p{
+        font-size: 25px;
+    }
+    .fitness_plan6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 360px;
+        top: 330px;
+    }
+    .fitness_plan6 img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20px;
+    }
+    .fitness_plan6 p{
+        font-size: 25px;
+    }
+    .fitness_plan5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 600px;
+        top: 330px;
+    }
+    .fitness_plan5 img{
+        width: 100px;
+        height: 100px;
+        margin-left: -20px;
+    }
+    .fitness_plan5 p{
+        font-size: 25px;
+    }
+    .subscriptionplan{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+    .subscription_image{
+        height: 500px;
+    }
+    .subscription_price {
+        top: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .Basic{
+        width: 200px;
+        height: 325px;
+        padding-top: 30px;
+    }
+    .btn_price {
+        font-size: 20px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .Intermediate {
+        width: 200px;
+        height: 325px;
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+    .Advance{
+        width: 200px;
+        height: 325px;
+        padding-top: 30px;
+    }
+    .h1_subscription{
+         font-size: 30px;
+    }
+    .subscription_content{
+        left: 200px;
+        text-align: center;
+
+    }
+    .fitness_avaibility{
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -145px;
+        margin-left: 40px
+    }
+
+    .fitclub{
+        height: 425px;
+    }
+    .sucessStory_content{
+        height: auto;
+    }
+    .Success_img1{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .Success_img2 {
+         width: 200px;
+         height: 200px;
+         margin-left: 0px;
+         margin-right: 0px;
+    }
+    .Success_img3 {
+        width: 200px;
+        height: 200px;
+        margin-right: 0px;
+    }
+    .sucessStory{
+        height: 700px;
+    }
+    .sucessStory_content{
+        height: auto;
+        padding-top: 60px;
+    }
+    .successimg {
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+    .contentworlout{
+        width: 210px;
+        height: 25px;
+        margin-left: 0px;
+    }
+    .contentworlout3{
+        width: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    footer{
+        height: 600px;
+      }
+      .left{
+        top: 20px;
+        left: -35px;
+        height: 0px;
+        width: auto;
+      }
+      
+      
+      #img_footer{
+        margin-left: 290px;
+        height: auto;
+      }
+      .right p{
+        font-size: 40px;
+        height: 0px;
+        margin-bottom: 50px;
+        margin-left: 135px;
+        font-weight: 700;
+        color: #FFA500 ;
+        font-family: poppins;
+      }
+      .right{
+        width: 400px;
+        top: 350px;
+        right: 230px;
+      }
+      .btn_abs{
+        top: 10px;
+        left: 0px;
+        width: 150px;
+      }
+      .btn_abs1{
+        display: none;
+      }
+      .btn_box{
+        left: -155px;
+        top: 42px;
+        width: 150px;
+      
+      }
+      .btn_workout{
+        left: 30px;
+        top: 10px;
+        width: 150px;
+      }
+      .btn_nutritions{
+        top: -30px;
+        left: 370px;
+        width: 150px;
+      }
+      .btn_trainer{
+        top: 0px;
+        left: 184px;
+        width: 150px;
+      }
+      .btn_facility{
+        top: 0px;
+        left: 215px;
+        width: 150px;
+      }
+      .hr_right{
+        display: none;
+      }
+      .center{
+        display: none;
+      }
+      .left_content{
+        margin-left: 260px;
+        font-size: 30px;
+        width: 355px;
+        color: #FFA500;
+        left: 40px;
+        line-height: 45px;
+        margin-bottom: 0px;
+        margin-top: -15px;
+      }
+      .Popular_p{
+        text-wrap: nowrap;
+        margin-left: 25px;
+        margin-bottom: 30px;
+      }
+       .Mobile_view{
+        display: block;
+        display: flex;
+        position: absolute;
+        color: #fff;
+        margin-top: -110px;
+        margin-left: 200px;
+        gap: 30px;
+      
+       
+      }
+      .m_about{
+        margin-top: -300px;
+        margin-left: 20px;
+        font-size: 30px;
+      }
+      .m_contact{
+        margin-top: -250px;
+        margin-left: -115px;
+        font-size: 30px;
+      }
+      .m_careers{
+        margin-top: -200px;
+        margin-left: -133px;
+        font-size: 30px;
+      }
+      .m_membership{
+        margin-top: -300px;
+        margin-left: 65px;
+        font-size: 30px;
+      }
+      .m_customer_service{
+        margin-top: -250px;
+        margin-left: -200px;
+        font-size: 30px;
+      } 
+      .mobile-socialicon{
+        position: absolute;
+        margin-top: -45px;
+        gap: 100px;
+        display: flex;
+        margin-left: 250px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+      }
+      .copy_right{
+        font-size: 20px;
+      }
+      
+
+}
+
+

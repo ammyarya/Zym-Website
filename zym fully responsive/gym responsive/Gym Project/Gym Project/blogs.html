@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymWeb_Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="BlogResponsive.css">
+    <link rel="stylesheet" href="BlogRespoT.css">
+     
+   
+</head>
+<body>
+    <nav>
+        <div class="nav_container">
+            <a href="Home.html">
+                <img src="Image/fitness logo 1.png" alt="" class="navbarimage">
+            </a>
+        </div>
+        <div id="Hummenu">
+            <i class="fa-solid fa-bars "></i>
+        </div>
+        <div id="cancel" onclick="togglefun()"><i class="fa-solid fa-xmark"></i></div>
+         <div class="nav_link">
+            <ul class="nav_li">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="products.html">product</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="#">  <div >
+                    <button class="nav_btn" >Join Us</button>
+        
+                 </div> </a></li>
+
+            </ul>
+         </div>
+    </nav>
+    <div id="scrolling">
+        <header>
+                <div class="blogs_header">
+                    <div id="leftside">
+                        <img src="Image/yoga.jpg" alt="" id="blogs_img">
+                    </div>
+                    <div id="right_side">
+                        <p id="blogs_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centrelease of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <form>
+                    <div class="form_box">
+                        <label for="name" class="label">Full Name:</label><br>
+                        <input type="text" id="name"><br><br>
+                    
+                        <label for="email" class="label">Email:</label><br>
+                        <input type="email" id="email"><br><br>
+                    
+                        <label for="number" class="label">Mobile Number:</label><br>
+                        <input type="number" id="number"><br><br>
+                    
+                        <label for="" class="label">Duration:</label><br>
+                        <div class="radio_box">
+                            <input type="radio" name="duration"> Monthly
+                        <input type="radio" name="duration" class="duration"> Yearly <br><br>
+                        </div>
+                        
+                    
+                        <label for="" class="label">Mode of Payment:</label><br>
+                        <div class="radio_box">
+                            <input type="radio" name="payment" value="cash"> Cash 
+                        <input type="radio" name="payment" value="online" class="duration1"> Online <br><br>
+                        </div>
+                    
+                        <label for="" class="label">Personal Training:</label><br>
+                        <input type="radio" name="training" value="required"> Required <br>
+                        <input type="radio" name="training" value="not_required"> Not Required <br><br>
+                        <input type="checkbox" name="terms" id="terms"> I accept all terms and conditions provided in this form. <br><br>
+                        <div id="form_btn_bottom">
+                            <button id="cancell_btn">Cancel</button>
+                            <button id="buy_plan">Buy Plan</button>
+                        </div>
+                    </div>
+                </form>
+        </header>
+        <main>
+            <div class="health_diat">
+                <div id="health_diet_box">
+                    <div class="diat_content">
+                        <h2>BENEFITS OF A HEALTHY DIET</h2>
+                        <ul class="diet_list">
+                            <li class="diet_list_name">May help you live longer.</li>
+                            <li class="diet_list_name">Keeps skin, teeth, and eyes healthy.</li>
+                            <li class="diet_list_name">Supports muscles.</li>
+                            <li class="diet_list_name">Boosts immunity.</li>
+                            <li class="diet_list_name">Strengthens bones.</li>
+                            <li class="diet_list_name">Supports healthy pregnancies and breastfeeding.</li>
+                            <li class="diet_list_name">Helps the digestive system function.</li>
+                        </ul>
+                    </div>
+                    <div class="diet_image">
+                        <img src="Image/nutraint.jpg" alt="" id="diet_image">
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        <section>
+            <div class="section_area">
+                <div class="left_section">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centrelease of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="right_section">
+                    <img src="Image/running.jpg" alt="" class="right_section_img" >
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="left">
+                <img src="Image/fitness logo 1.png" alt="logo" id="img_footer">
+                <p class="left_content">Prioritize Your Fitness Goals with our world class services</p>
+            </div>
+            <div class="center">
+                <div class="company">
+                    <h2>COMPANY</h2>
+                    <ul class="company">    
+                        <li><a href="">About</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <!-- <li><a href="" class="term">Terms & Conditions</a></li> -->
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h2>CONTACT</h2>
+                    <ul class="contact">
+                        <li><a href="">Help/FAQs</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="more">
+                    <h2>MORE</h2>
+                    <ul class="more">
+                        <li><a href="">Program</a></li>
+                        <li><a href="">Plans</a></li>
+                        <li><a href="">Method</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <h1 class="Popular_p">Popular Tags</h1><hr class="hr_right">
+            <div class="footerbtns"> <button class="btn_abs">ABS</button>
+                <button class="btn_workout">Workout</button>
+                <button class="btn_nutritions">Nutrition</button>
+                <button class="btn_abs1">ABS</button>
+                <button class="btn_box">Boxing</button>
+                <button class="btn_trainer">Trainers</button>
+                <button class="btn_facility">Facilities</button>
+            </div>  </div>
+        </footer>
+        <div class="Mobile_view">
+            <h2 class="m_about">About</h2>
+            <h2 class="m_contact">Contact</h2>
+            <h2 class="m_careers">Careers</h2>
+            <h2 class="m_membership">Memberships</h2>
+            <h2 class="m_customer_service">Customer Service</h2>
+        </div>
+        <div class="mobile-socialicon">
+            <a href="#"><img src="Image/Vector (5).png" alt=""></a>
+            <a href="#"><img src="Image/Vector (6).png" alt=""></a>
+            <a href="#"><img src="Image/Vector (7).png" alt=""></a>
+           
+        </div>
+        <div class="sub_footer">
+            <p class="copy_right">  Copyright @ Fitness Star Gym Pvt Ltd </p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4ac0b26555.js" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
